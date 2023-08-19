@@ -1,0 +1,25 @@
+{
+  "key": "remox-gx-after-takeoff",
+  "name": "After Takeoff",
+  "completed": false,
+  "items": [
+    {
+      "key": "Flaps",
+      "value": "STUFE 0",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "Landelicht",
+      "value": "OFF",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Drezahl",
+      "value": "REDUZIEREN",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}

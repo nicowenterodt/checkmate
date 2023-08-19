@@ -1,0 +1,109 @@
+{
+  "key": "breezer-engine-start",
+  "name": "Engine Start",
+  "completed": false,
+  "items": [
+    {
+      "key": "Vorflugkontrolle",
+      "value": "OK",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "ELT",
+      "value": "ARM",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Anschnallgurte",
+      "value": "ANGELEGT",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Rettungssystem",
+      "value": "ENTSICHERT",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Steuerung",
+      "value": "OK",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Brandhahn",
+      "value": "AUF",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Bremse",
+      "value": "GESETZT",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Choke",
+      "value": "NACH BEDARF",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Gashebel",
+      "value": "10%",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Propeller",
+      "value": "FREI",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Hauptschalter",
+      "value": "EIN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Kraftstoffpumpe",
+      "value": "EIN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "ACL",
+      "value": "EIN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Zündung",
+      "value": "BOTH",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Anlasser",
+      "value": "MAX 5. Sek.",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Avionic+EFIS",
+      "value": "EIN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "ÖL Druck",
+      "value": "OK",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}

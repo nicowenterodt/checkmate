@@ -1,0 +1,25 @@
+{
+  "key": "breezer-taxi",
+  "name": "Taxi",
+  "completed": false,
+  "items": [
+    {
+      "key": "Bremsen",
+      "value": "OK",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "Richtungssteuerung",
+      "value": "OK",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Drezahl",
+      "value": "MAX 2.000 rpm",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}
