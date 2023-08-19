@@ -1,5 +1,6 @@
 module.exports = {
   reactStrictMode: true,
+  basePath: '/checkmate'
 };
 const withPWA = require("next-pwa");
 module.exports = withPWA({
