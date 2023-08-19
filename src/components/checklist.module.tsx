@@ -15,14 +15,14 @@ type Props = {
 
 const Checklist = (props: Props) => {
   const { checklist, onCompleted } = props;
-  const [checkitems, setCheckitems] = useState<ICheckitem[]>(checklist.items);
+  const [checkitems, setCheckitems] = useState<ICheckitem[]>(checklist?.items);
 
-  const currentPosition = ():number => {
-    return checkitems.findIndex(item => item.focused)
+  const currentPosition = (): number => {
+    return checkitems?.findIndex(item => item.focused)
   }
 
-  const checklistComplete = ():Boolean => {
-    return checkitems.map(i => i.checked).every(Boolean)
+  const checklistComplete = (): Boolean => {
+    return checkitems?.map(i => i.checked).every(Boolean)
   }
 
   const handleCheckIem = () => {
@@ -52,7 +52,7 @@ const Checklist = (props: Props) => {
   return (
     <div className='flex-col'>
       <div onClick={handleCheckIem}>
-        {props.checklist.items.map((item: ICheckitem, i: number) => (
+        {checkitems?.map((item: ICheckitem, i: number) => (
           <Checkitem checkitem={item} key={`item-${i}`} />
         ))}
       </div>

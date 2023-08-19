@@ -1,12 +1,15 @@
 import Checklist, { IChecklist } from '@/components/checklist.module'
 import checkgroup from '@/data/checklists/breezer'
-import { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next'
+import { NextPage } from 'next'
 import { useRouter } from 'next/router'
+import { useSearchParams } from 'next/navigation'
 
 
 const ChecklistDetails: NextPage = () => {
+  const searchParams = useSearchParams()
+  const checklistID = searchParams.get('checklist')
   const router = useRouter()
-  const checklist: IChecklist = checkgroup.checklists.find(i => i.key === router.query.checklist)!
+  const checklist: IChecklist = checkgroup.checklists.find(i => i.key === checklistID)!
 
   const onCompleted = () => {
     checklist.completed = true
@@ -14,7 +17,7 @@ const ChecklistDetails: NextPage = () => {
   }
 
   return <div>
-    <Checklist checklist={checklist} onCompleted={onCompleted}/>
+    <Checklist checklist={checklist} onCompleted={onCompleted} />
   </div>
 }
 

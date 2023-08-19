@@ -1,11 +1,12 @@
 {
-    "theme_color": "#35474b",
-    "background_color": "#a6dde0",
-    "display": "browser",
+    "theme_color": "#7f93b4",
+    "background_color": "#7f93b4",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
     "name": "Checkmate",
-    "short_name": "CHKM8",
+    "short_name": "CHKCM8",
+    "description": "Checklist App",
     "icons": [
         {
             "src": "/icon-192x192.png",
