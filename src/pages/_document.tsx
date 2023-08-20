@@ -9,7 +9,7 @@ export default function Document() {
         <meta name="theme-color" content="#fff" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       </Head>
-      <body>
+      <body className='bg-gray-900'>
         <Main />
         <NextScript />
       </body>
