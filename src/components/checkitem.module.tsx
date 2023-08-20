@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from 'react';
+import React from 'react';
 
 export interface ICheckitem {
   key: String,
@@ -13,8 +13,12 @@ type Props = {
 
 const Checkitem = (props: Props) => {
   const { key, value, focused, checked } = props.checkitem;
+  if (checked) {
+    return;
+  }
+
   return (
-    <div className={`my-1 w-full px-4 py-2.5 bg-slate-100 rounded-xl shadow-sm flex items-start ${focused ? 'opacity-100' : 'opacity-20' }`}>
+    <div className={`my-1 w-full px-4 py-2.5 bg-slate-100 rounded-xl shadow-sm flex items-start ${focused ? 'opacity-100' : 'opacity-20'}`}>
       <div className="w-10">
         {checked &&
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 stroke-2 stroke-blue-900">

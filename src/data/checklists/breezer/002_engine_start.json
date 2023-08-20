@@ -58,12 +58,6 @@
       "checked": false
     },
     {
-      "key": "Propeller",
-      "value": "FREI",
-      "focused": false,
-      "checked": false
-    },
-    {
       "key": "Hauptschalter",
       "value": "EIN",
       "focused": false,
@@ -78,6 +72,12 @@
     {
       "key": "ACL",
       "value": "EIN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Propeller",
+      "value": "FREI",
       "focused": false,
       "checked": false
     },

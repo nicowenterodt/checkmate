@@ -16,9 +16,7 @@ const ChecklistDetails: NextPage = () => {
     router.push('/checkgroup')
   }
 
-  return <div>
-    <Checklist checklist={checklist} onCompleted={onCompleted} />
-  </div>
+  return <Checklist checklist={checklist} onCompleted={onCompleted} />
 }
 
 export default ChecklistDetails;

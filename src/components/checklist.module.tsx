@@ -50,22 +50,20 @@ const Checklist = (props: Props) => {
   }
 
   return (
-    <div className='flex-col'>
-      <div onClick={handleCheckIem}>
-        {checkitems?.map((item: ICheckitem, i: number) => (
-          <Checkitem checkitem={item} key={`item-${i}`} />
-        ))}
-      </div>
+    <div className='flex-col min-h-screen' onClick={handleCheckIem}>
+      {checkitems?.map((item: ICheckitem, i: number) => (
+        <Checkitem checkitem={item} key={`item-${i}`} />
+      ))}
       {checklistComplete() &&
-        <div className='fixed bottom-0 right-0 left-0 px-2 flex'>
-          <button onClick={() => handleStartAgain()} type="button" className="flex-1 whitespace-nowrap text-white bg-slate-400 hover:bg-blue-900/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
-            <span>Start again</span>
-          </button>
-          <button onClick={() => onCompleted()} type="button" className="w-full text-white bg-blue-900 hover:bg-blue-900/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 justify-center items-center inline-flex mb-2">
+        <div className='flex w-full min-h-screen justify-center  px-5 flex-col'>
+          <button onClick={() => onCompleted()} type="button" className="w-full text-white bg-blue-900 hover:bg-blue-900/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-10 justify-center items-center inline-flex mb-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 mr-2 stroke-1 stroke-white-500">
               <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            <span>Checklist completed!</span>
+            <span>Checklist Complete</span>
+          </button>
+          <button onClick={() => handleStartAgain()} type="button" className="w-full whitespace-nowrap text-white bg-slate-400 hover:bg-blue-900/90 focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2">
+            <span>Start again</span>
           </button>
         </div>
       }
