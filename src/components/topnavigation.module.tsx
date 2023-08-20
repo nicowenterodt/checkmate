@@ -9,7 +9,7 @@ const Topnavigation = () => {
   const checklistName: String = router.query?.checklist?.toString() || ""
   const title: String = checklistName.replace(/-/g, ' ') || "Checkmate"
 
-  return <div className='flex w-full p-4 bg-gray-900 fixed z-50 h-20 items-center  justify-between'>
+  return <div className='flex w-full pt-10 p-4 bg-gray-900 fixed z-50 h-24 items-center  justify-between'>
     <div className='w-10'>
       {router.route !== '/' &&
         <button onClick={() => router.back()} type="button" className="inline-flex flex-shrink-0 justify-center items-center gap-2 rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs">
