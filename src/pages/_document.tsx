@@ -8,11 +8,13 @@ export default function Document() {
         <link rel="apple-touch-icon" href="/icon.png"></link>
         <meta name="theme-color" content="#fff" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="aapple-mobile-web-app-capable" content="black-translucent" />
+        <meta name='viewport' content='initial-scale=1, viewport-fit=cover' />
       </Head>
       <body className='bg-gray-900'>
         <Main />
         <NextScript />
       </body>
-    </Html>
+    </Html >
   );
 }
