@@ -21,7 +21,7 @@ export default function Home() {
             }
           </div>
           <div className="flex-col">
-            <div className="font-semibold text-black">{checklist.name}</div>
+            <div className="font-semibold text-black text-xl">{checklist.name}</div>
           </div>
         </div>
       </Link>

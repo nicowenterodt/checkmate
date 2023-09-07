@@ -34,8 +34,8 @@ const Checkitem = (props: Props) => {
       </div>
 
       <div className="flex-col">
-        <div className="font-semibold text-black">{key}</div>
-        <p className="text-slate-500 font-mono">{value}</p>
+        <div className="font-semibold text-black text-xl">{key}</div>
+        <p className="text-slate-500 font-mono text-xl">{value}</p>
       </div>
     </div>
   )
