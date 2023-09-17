@@ -1,0 +1,31 @@
+{
+  "key": "remos-before-landig",
+  "name": "Before Landing",
+  "completed": false,
+  "items": [
+    {
+      "key": "Benzinpumpe",
+      "value": "ON",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "Landelicht",
+      "value": "ON",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Geschwindigkeit",
+      "value": "100 Km/h",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Flaps",
+      "value": "NACH BEDARF",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}

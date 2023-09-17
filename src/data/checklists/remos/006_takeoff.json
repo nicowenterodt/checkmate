@@ -1,0 +1,25 @@
+{
+  "key": "remos-takeoff",
+  "name": "Takeoff",
+  "completed": false,
+  "items": [
+    {
+      "key": "Vollgas prüfen",
+      "value": "MIN. 4.750 rpm",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "Airspeed alive",
+      "value": "CHECK",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Climb Out",
+      "value": "120 Km/h",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}

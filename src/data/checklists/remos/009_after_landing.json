@@ -1,0 +1,49 @@
+{
+  "key": "remos-after-landig",
+  "name": "After Landing",
+  "completed": false,
+  "items": [
+    {
+      "key": "Benzinpumpe",
+      "value": "OFF",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "Landelicht",
+      "value": "OFF",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Flaps",
+      "value": "EINFAHREN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Elek. Verbraucher",
+      "value": "AUS",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Motor",
+      "value": "AUS",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Log Engine off",
+      "value": "OK",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Rettung",
+      "value": "GESICHERT",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}

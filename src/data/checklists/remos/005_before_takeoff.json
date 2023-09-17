@@ -1,0 +1,73 @@
+{
+  "key": "remos-before-takeoff",
+  "name": "Before Takeoff",
+  "completed": false,
+  "items": [
+    {
+      "key": "Öl-Temperatur",
+      "value": "MIN. 50°C",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "Türen",
+      "value": "VERRIEGELT",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Choke",
+      "value": "AUS",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Magnetcheck 4.000 rpm",
+      "value": "MAX. 300 rpm ABFALL",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Sicherungen",
+      "value": "OK",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Flaps",
+      "value": "Stufe 1",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Trimmung",
+      "value": "NEUTRAL",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Benzinpumpe",
+      "value": "EIN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "LANDELICHT",
+      "value": "EIN",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Triebwerk Überwachung",
+      "value": "OK",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Departure + Notfall Briefing",
+      "value": "CHECK",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}

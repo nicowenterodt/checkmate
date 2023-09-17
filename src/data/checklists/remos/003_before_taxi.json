@@ -1,0 +1,31 @@
+{
+  "key": "remos-before-taxi",
+  "name": "Before Taxi",
+  "completed": false,
+  "items": [
+    {
+      "key": "Kraftstoffpumpe",
+      "value": "AUS",
+      "focused": true,
+      "checked": false
+    },
+    {
+      "key": "Höhenmesser",
+      "value": "local QNH",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Nav Settings",
+      "value": "Route / Ziel geplan",
+      "focused": false,
+      "checked": false
+    },
+    {
+      "key": "Funk",
+      "value": "PLATZ + FIS",
+      "focused": false,
+      "checked": false
+    }
+  ]
+}
